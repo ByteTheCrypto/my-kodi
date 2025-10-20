@@ -1,0 +1,9 @@
+├── repository.myrepo/
+ │     └── addon.xml
+ ├── plugin.program.helloworld/
+ │     ├── addon.xml
+ │     └── default.py
+ ├── addons.xml
+ ├── addons.xml.md5
+ ├── README.md
+ └── zips/
