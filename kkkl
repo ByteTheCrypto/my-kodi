@@ -1,0 +1,5 @@
+import xbmc
+import xbmcgui
+
+dialog = xbmcgui.Dialog()
+dialog.ok("Hello World", "This is your first Kodi add-on running from GitHub!")
