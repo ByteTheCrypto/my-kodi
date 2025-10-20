@@ -1,0 +1,13 @@
+<addon id="plugin.program.helloworld" name="Hello World" version="1.0.0" provider-name="YourName">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+  </requires>
+  <extension point="xbmc.python.program" library="default.py">
+    <provides>program</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Simple hello add-on for testing</summary>
+    <description>Shows a basic hello message inside Kodi.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
